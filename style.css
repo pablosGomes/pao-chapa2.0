@@ -1,0 +1,125 @@
+html{
+   font-family: "Roboto", sans-serif;
+   scroll-behavior: smooth;
+}
+ 
+ body {
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    background-color: rgb(252, 250, 142);
+ }
+
+ header {
+    display: flex;
+    margin: 0;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: rgb(247, 241, 156);
+    border-radius: 25px;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ img {
+    width: 200px;
+    height: 200px;
+ }
+
+ .logo-header {
+    width: 25%;
+ }
+
+ footer {
+    margin: 0;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: rgb(247, 241, 156);
+    border-radius: 15px;
+    align-items: center;
+ }
+
+ .menu ul {
+    display: flex;
+    list-style-type: none;
+ }
+
+ .menu li a{
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    list-style: none;
+ }
+
+ .cesta {
+   width: 300px;
+ }
+
+ #introducao{
+   display: flex;
+   height: 250px;
+   align-items: center;
+ }
+
+#introducao div{
+   width: 50%;
+   padding-left: 100px;
+   padding-right: 100px;
+   margin-top: 50px;
+   margin-right: 20px;
+}
+
+#sobre-nos{
+   padding: 100px;
+   padding-right: 100px;
+   background-color: rgb(255,235,205,);
+   height: 200px;
+   display: flex;
+   flex-direction: column;
+   color: rgb(95,93,71);
+}
+
+#produto{
+   padding-left: 100px;
+   padding-right: 100px;
+   margin-top: 50px;
+   margin-bottom: 100px;
+   text-align: center;
+}
+
+#produtos h2{
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+
+.conteudo-produtos{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 150px;
+}
+
+.produtos{
+   width: 200px;
+   text-align: center;
+}
+
+footer{
+   background-color: rgb(58, 57, 57);
+   color: white;
+   margin: 0;
+   text-align: center;
+   padding-top: 25px;
+
+}
+
+footer p{
+   margin: 0;
+}
+
+.direitos-autorais{
+   padding-top: 25px;
+   padding-bottom: 25px;
+}
+
